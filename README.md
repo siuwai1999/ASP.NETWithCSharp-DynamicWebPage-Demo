@@ -16,13 +16,17 @@
 ## 網站架構
 ![sitemap](https://github.com/siuwai1999/ASP.NETWithCSharp-DynamicWebPage-Demo/blob/main/img/sitemap.png?raw=true)
 ## 頁面截圖
+### 用戶端
+![Screenshot](https://github.com/siuwai1999/ASP.NETWithCSharp-DynamicWebPage-Demo/blob/main/img/1.png?raw=true)
 
+### 管理端
+![Screenshot](https://github.com/siuwai1999/ASP.NETWithCSharp-DynamicWebPage-Demo/blob/main/img/2.png?raw=true)
 ## 快速开始
 開啟 ` Visual Studio 2019 ` 
 選擇 ` 複製存放庫 ` 
 貼上以下連結
 ```
-git clone https://github.com/siuwai1999/ASP.NETWithCSharp-DynamicWebPage-Demo.git
+https://github.com/siuwai1999/ASP.NETWithCSharp-DynamicWebPage-Demo.git
 ```
 **確保 ` Visual Studio 2019 ` 已安裝  ` Visual Studio 2019 ` 和 ` 資料儲存與處理 ` 工作負載**
 ### End
