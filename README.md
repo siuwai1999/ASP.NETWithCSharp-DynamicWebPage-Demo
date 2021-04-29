@@ -28,5 +28,7 @@
 ```
 https://github.com/siuwai1999/ASP.NETWithCSharp-DynamicWebPage-Demo.git
 ```
-**確保 ` Visual Studio 2019 ` 已安裝  ` Visual Studio 2019 ` 和 ` 資料儲存與處理 ` 工作負載**
+**確保 ` Visual Studio 2019 ` 已安裝以下工作負載**
++  ` ASP.NET 與網站程式開發 ` 
++  ` 資料儲存與處理 ` 
 ### End
