@@ -31,4 +31,18 @@ https://github.com/siuwai1999/ASP.NETWithCSharp-DynamicWebPage-Demo.git
 **確保 ` Visual Studio 2019 ` 已安裝以下工作負載**
 +  ` ASP.NET 與網站程式開發 ` 
 +  ` 資料儲存與處理 ` 
-### End
+## 開發人員
++ ### [SIU WAI KWANS](https://siuwai1999.github.io/) ✉ <siuwai1999@Outlook.com>
+     + 前端設計
+     + 後端開發
+     + 資料庫設計
++ ### 葵葵
+     + 網頁企劃
+     + 網頁架構設計
+     + 圖片編輯與製作
+## License
+![License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
+
+本著作係採用 **[創用 CC 姓名標示-非商業性-相同方式分享 4.0 國際](http://creativecommons.org/licenses/by-nc-sa/4.0/)** 授權條款授權.
+
+
