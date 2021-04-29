@@ -1,0 +1,35 @@
+#rcorners-top {
+  border-radius: 0px 0px 50px 50px;
+  background-color: white;
+  padding: 15x; 
+}
+#rcorners-bottom {
+  border-radius: 50px 50px 0px 0px;
+  padding: 15x; 
+}
+#icons-padding {
+  padding-right: 10px;
+}
+.navbar-nav {
+  li {
+    display: inline-block; 
+  }
+}
+.navbar-nav-scroll {
+  white-space: nowrap;
+  overflow-x: auto; 
+  -webkit-overflow-scrolling: touch;
+}
+.form-signin {
+  width: 100%;
+  max-width: 400px;
+  padding: 25px;
+  margin: auto;
+}
+.btn {
+  border-radius: 50px;
+}
+.card {
+  border-radius: 50px;
+    margin: 6px;
+}

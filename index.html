@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>多媒體網站技術應用</title>
+    <link rel="icon" href="images192.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&display=swap">
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <style>
+#rcorners-top {
+  border-radius: 0px 0px 50px 50px;
+  background-color: white;
+  padding: 15x; 
+}
+#rcorners-bottom {
+  border-radius: 50px 50px 0px 0px;
+  padding: 15x; 
+}
+#icons-padding {
+  padding-right: 10px;
+}
+.navbar-nav {
+  li {
+    display: inline-block; // stops menu items from stacking
+  }
+}
+.navbar-nav-scroll {
+  white-space: nowrap;
+  overflow-x: auto; 
+  -webkit-overflow-scrolling: touch;
+}
+    </style>
+  </head>
+  <body style="font-family: 'Noto Sans TC', sans-serif;">
+
+<header class="navbar fixed-top navbar-expand navbar-light flex-column flex-md-row px-0" id="rcorners-top">
+  <div class="container flex-wrap flex-md-nowrap py-0 px-3">
+    <a class="navbar-brand py-0 mr-0 mr-md-2" href="index.aspx"><img src="images/logo.png" height="32" alt="LOGO" /></a>
+    <div class="navbar-nav-scroll order-3 order-md-0 d-flex justify-content-center justify-content-md-start">
+      <ul class="navbar-nav flex-row">
+        <li class="nav-item"><a class="nav-link " href="index.aspx"><i class="fas fa-home" id="icons-padding"></i>首頁</a></li>
+		<hr width="3" size="15" color="#000000">
+		<li class="nav-item"><a class="nav-link" href="Default.aspx"><i class="fas fa-shopping-bag" id="icons-padding"></i>產品資料</a></li>
+		<hr width="3" size="15" color="#000000">
+        <li class="nav-item"><a class="nav-link" href="about.aspx"><i class="fas fa-info-circle" id="icons-padding"></i></i>品牌日誌</a></li>
+		<hr width="3" size="15" color="#000000">
+        <li class="nav-item"><a class="nav-link" href="about.aspx#Contact"><i class="fas fa-envelope" id="icons-padding"></i>聯絡我們</a></li>
+      </ul>
+    </div>
+
+    <ul class="navbar-nav ml-sm-auto">
+      <li class="nav-item"><a class="nav-link p-2" href=""><i class="fas fa-shopping-cart fa-lg"></i></a></li>
+      <li class="nav-item me-3 me-lg-0 dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="user-navbarDropdown" data-mdb-toggle="dropdown">
+          <i class="fas fa-user fa-lg"></i>
+        </a>
+        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start" aria-labelledby="user-navbarDropdown">
+		
+          <li><a class="dropdown-item" href="login.aspx">登入</a></li>
+          <li><a class="dropdown-item" href="Member_Add.aspx">註冊</a></li>
+		  
+          <li><a class="dropdown-item" href="Member_Update.aspx">資料修改</a></li>
+          <li><a class="dropdown-item" href="Member_ShoppingCar.aspx">購物清單</a></li>
+          <li><a class="dropdown-item" href="Member_Orders.aspx">訂單資料</a></li>
+		  <li><hr class="dropdown-divider"/></li>
+		  
+        </ul>
+      </li>
+    </ul>
+  </div>
+</header>
+
+<div style="height: 60px;"></div>
+
+
+
+
+
+<footer class="bg-light text-center text-lg-start" id="rcorners-bottom">
+  <div class="container p-4">
+    <div class="row">
+      <div class="col-lg-6 col-sm-12">
+	    <img src="images/logo.png" height="32" alt="LOGO"/>
+        <p>41354 台中市霧峰區柳豐路500號<br>500, Lioufeng Rd., Wufeng, Taichung 41354, Taiwan<br>
+		<i class="fab fa-cc-visa fa-2x" id="icons-padding"></i>
+		<i class="fab fa-cc-mastercard fa-2x" id="icons-padding"></i>
+		<i class="fab fa-cc-amex fa-2x" id="icons-padding"></i>
+		<i class="fab fa-line fa-2x" id="icons-padding"></i>
+		<i class="fab fa-alipay fa-2x" id="icons-padding"></i>
+		</p>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <h5 class="text-uppercase">Links</h5>
+        <ul class="list-unstyled mb-0">
+		
+          <li>
+            <a href="#!" class="text-dark">最新消息</a>
+          </li>
+          <li>
+            <a href="Default.aspx" class="text-dark">產品資料</a>
+          </li>
+          <li>
+            <a href="login.aspx" class="text-dark">會員登入</a>
+          </li>
+          <li>
+            <a href="Member_Add.aspx" class="text-dark">註冊會員</a>
+          </li>
+		  
+          <li>
+            <a href="Default.aspx" class="text-dark">產品資料</a>
+          </li>
+          <li>
+            <a href="Member_Update.aspx" class="text-dark">資料修改</a>
+          </li>
+          <li>
+            <a href="Member_ShoppingCar.aspx" class="text-dark">購物清單</a>
+          </li>
+          <li>
+            <a href="Member_Orders.aspx" class="text-dark">訂單資料</a>
+          </li>
+		  
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <h5 class="text-uppercase">Links</h5>
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="#!" class="text-dark">購物說明</a>
+          </li>
+          <li>
+            <a href="#!" class="text-dark">網站條款</a>
+          </li>
+          <li>
+            <a href="#!" class="text-dark">隱私政策</a>
+          </li>
+          <li>
+            <a href="about.aspx" class="text-dark">聯絡我們</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.1)" id="rcorners-bottom">
+    © 2021 Copyright：<a class="text-dark" href="index.aspx"><img src="images/logo.png" height="20" alt="LOGO"/></a>
+  </div>
+</footer>
+
+  </body>
+
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script type="text/javascript"></script>
+</html>
